@@ -1,0 +1,21 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font: 400 15px/1.9 "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #c4dfe6;
+    
+
+}
+form{
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 80px #07acb4;
+}

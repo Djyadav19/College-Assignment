@@ -1,0 +1,46 @@
+body{
+    background: #90afc5;
+    font: 400 15px/1.9 "Lato", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    text-align: center;
+    width: 50vmin;
+    display: inline-block;
+    background: #336B87;
+    padding: 1vmin 3vmin;
+    border-radius: 10px;
+    color: #ddd;
+}
+form input{
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 2vmin 0;
+    font-weight: 700;
+}
+form input[type = "number"]{
+    height: 1vmin;
+}
+form h1, form input[type = submit]{
+    text-transform: uppercase;
+}
+form input[type = submit]{
+    padding: 1vmin 0;
+    background: none;
+    color: #ddd;
+    outline: none;
+    font-weight: 700;
+    font-size: 18px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+form input[type = submit]:hover{
+    background: #ddd;
+    color: #333;
+}
