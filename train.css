@@ -14,8 +14,27 @@ html, body{
     
 
 }
-form{
+
+div.wrapper, form{
     align-items: center;
     text-align: center;
     box-shadow: 0 0 80px #07acb4;
+    padding: 5vmin;
+}
+input, select{
+    display: block;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    background: #07acb4;
+    border: 1px solid #07acb4;
+    display: block;
+    width: 100%;
+    margin: 1vmin 0;
+}
+a:hover{
+    background: none;
+    color: #07acb4;
 }
