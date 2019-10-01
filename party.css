@@ -1,0 +1,125 @@
+
+/*
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    font: 400 15px/2 "Lato", sans-serif;
+}
+header{
+    background:#07acb4;
+    text-align: center;
+    padding: 4vmin 0;
+}
+header h1{
+    font: 850 50px/1 "Lato", sans-serif;
+}
+header h1 .white{
+    color: #fff;
+    text-shadow: -2px 0 1px #000;
+}
+header h1 .black{
+    color: #000;
+    text-shadow: 2px 0 1px #fff;
+}
+.img1{
+    background: url("bday.jpg");
+    width: 50vmin;
+    height: 50vmin;
+    background-size: 50vmin;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: center;
+}
+header div{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1vmin;
+    padding: 1vmin;
+    border: 4px solid #07acb4;
+}
+
+a, input[type=submit]{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+a:hover, input[type = submit]:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.48);
+}
+div.container{
+    text-align: center;
+    padding: 10px 20px;
+}
+table{
+    text-align: center;
+    width: 70vmin;
+}
+tr{
+    margin: 1vmin;
+}
+th{
+    border: 1px solid #07acb4;
+}
+td{
+    border-left: 1px solid #07acb4;
+    border-right: 1px solid #07acb4;
+}
+input[type = submit]{
+    margin: 1vmin;
+    background: #07acb4;
+    color: #000;
+    border: 1px solid#07acb4;
+    padding: 1vmin;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+}
+*/
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font: 400 15px/1.9 "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #c4dfe6;
+    
+
+}
+
+div.wrapper, form{
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 80px #07acb4;
+    padding: 5vmin;
+}
+input, select{
+    display: block;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    background: #07acb4;
+    border: 1px solid #07acb4;
+    display: block;
+    width: 100%;
+    margin: 1vmin 0;
+}
+a:hover{
+    background: none;
+    color: #07acb4;
+}
